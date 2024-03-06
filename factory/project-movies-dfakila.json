@@ -1,0 +1,9 @@
+{
+	"name": "project-movies-dfakila",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f70f80da-6edc-4060-97dd-ee471f151cd1",
+		"tenantId": "54efe58d-72b7-45af-9a01-30ee5f377a71"
+	}
+}

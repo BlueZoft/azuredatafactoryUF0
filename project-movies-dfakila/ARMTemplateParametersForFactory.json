@@ -1,0 +1,75 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "project-movies-dfakila"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage5_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage6_accountKey": {
+			"value": ""
+		},
+		"GitHub1_credential": {
+			"value": ""
+		},
+		"OutputSQL_connectionString": {
+			"value": ""
+		},
+		"sqlinputblob_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://moviesdatasaakila.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://moviesdatasaakila.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://moviesdatasaakila.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage4_properties_typeProperties_url": {
+			"value": "https://moviesdatasaakila.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage5_properties_typeProperties_url": {
+			"value": "https://moviesdatasaakila.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage6_properties_typeProperties_url": {
+			"value": "https://moviesdatasaakila.dfs.core.windows.net/"
+		},
+		"GitHub1_properties_typeProperties_username": {
+			"value": "BlueZoft"
+		},
+		"HttpufoData_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/vetate/ufo-data/main/ufo-sightings-transformed.csv"
+		},
+		"actionHTTP_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/vetate/project-ETL-Movies-DATAcsv/main/action.csv"
+		},
+		"adventureHTTP_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/vetate/project-ETL-Movies-DATAcsv/main/adventure.csv"
+		},
+		"horrorHTTP_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/vetate/project-ETL-Movies-DATAcsv/main/horror.csv"
+		},
+		"scifiHTTP_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/vetate/project-ETL-Movies-DATAcsv/main/scifi.csv"
+		},
+		"thrillerHTTP_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/vetate/project-ETL-Movies-DATAcsv/main/thriller.csv"
+		}
+	}
+}

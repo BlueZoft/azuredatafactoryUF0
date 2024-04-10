@@ -1,11 +1,15 @@
 {
-	"name": "destination_Spotify",
+	"name": "destination_Spotifys",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Spotify_In_Destination",
+			"type": "LinkedServiceReference"
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
 			{
-				"name": "Identity",
+				"name": "ID",
 				"type": "int",
 				"precision": 10
 			},
